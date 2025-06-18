@@ -101,3 +101,175 @@ Key benefits of a user-friendly design include:
 - 🌟 **Increased customer satisfaction** and repeat usage
 
 By focusing on UI/UX from the beginning, we ensure that our platform not only looks good but also performs effectively under real-world usage.
+## 👥 Project Roles and Responsibilities
+
+To ensure smooth collaboration and clear accountability, the team is organized into well-defined roles. Each role contributes to specific aspects of the project’s development life cycle, from planning and design to deployment and iteration.
+
+---
+
+### 🧑‍💼 Project Manager
+**Responsibilities:**
+- Define the overall timeline and milestones
+- Coordinate cross-functional team efforts
+- Monitor progress and ensure deliverables are met on time
+- Act as a central point of communication for the team
+
+**Contribution:**
+Keeps the project on schedule and ensures that resources and priorities are managed efficiently.
+
+---
+
+### 💻 Frontend Developers
+**Responsibilities:**
+- Develop responsive and reusable UI components using React
+- Integrate frontend with backend APIs
+- Implement mobile-first and accessible designs
+- Ensure performance optimization across devices and browsers
+
+**Contribution:**
+Builds the user interface that customers interact with and ensures a high-quality user experience.
+
+---
+
+### 🛠️ Backend Developers
+**Responsibilities:**
+- Design and implement RESTful APIs
+- Develop core business logic and user authentication
+- Manage database interactions and schema design
+- Ensure data validation, security, and scalability
+
+**Contribution:**
+Powers the application's functionality and ensures reliable data processing and business logic execution.
+
+---
+
+### 🎨 Designers
+**Responsibilities:**
+- Create high-fidelity mockups and prototypes in Figma
+- Define and maintain a consistent design system
+- Ensure UI/UX best practices are followed
+- Provide design specifications to frontend developers
+
+**Contribution:**
+Establishes the visual language of the application and ensures a smooth and intuitive user experience.
+
+---
+
+### 🧪 QA/Testers
+**Responsibilities:**
+- Write and execute test cases (unit, integration, UI)
+- Identify bugs and document issues
+- Collaborate with developers to resolve defects
+- Ensure functionality aligns with user stories and requirements
+
+**Contribution:**
+Guarantees a stable and reliable application by preventing bugs from reaching production.
+
+---
+
+### 🚀 DevOps Engineers
+**Responsibilities:**
+- Set up and maintain CI/CD pipelines
+- Manage server infrastructure and deployment processes
+- Monitor application performance and logs
+- Ensure data backups and rollback plans are in place
+
+**Contribution:**
+Ensures smooth and consistent deployment, uptime, and scalability of the application.
+
+---
+
+### 📋 Product Owner
+**Responsibilities:**
+- Define and prioritize product features and requirements
+- Represent the voice of the end user or client
+- Maintain the product backlog
+- Provide acceptance criteria for features
+
+**Contribution:**
+Ensures the final product meets user needs and aligns with business objectives.
+
+---
+
+### 📆 Scrum Master
+**Responsibilities:**
+- Facilitate daily stand-ups, sprint planning, and retrospectives
+- Remove blockers and promote agile principles
+- Ensure team follows scrum practices
+- Support continuous improvement efforts
+
+**Contribution:**
+Keeps the team aligned with agile methodologies and promotes efficient team collaboration.
+
+---
+
+Each role is vital to delivering a high-quality, user-focused application. Clear role distribution encourages accountability and teamwork throughout the development process.
+## 🧩 UI Component Patterns
+
+To ensure a consistent, scalable, and maintainable user interface, the project will follow a **component-based architecture**. Each component is designed to be **modular, reusable**, and responsive across different screen sizes.
+
+---
+
+### 🔗 Navbar
+
+**Description:**  
+The navigation bar will provide quick access to essential sections of the platform.
+
+**Features:**
+- Logo (links to homepage)
+- Search input field
+- Navigation links (e.g., Browse, Favorites, Bookings)
+- User account menu (login/logout or profile dropdown)
+- Responsive hamburger menu for mobile view
+
+---
+
+### 🏡 Property Card
+
+**Description:**  
+Displays summarized information for each property in the listings grid.
+
+**Features:**
+- Property image (thumbnail)
+- Location and title
+- Price per night
+- Star rating or review count
+- Favorite/like button
+- Clickable area to navigate to the detailed listing page
+- Responsive layout adapting to screen size
+
+---
+
+### 📄 Footer
+
+**Description:**  
+The footer appears on all pages and contains secondary navigation and company information.
+
+**Features:**
+- Company links (About, Careers, Contact)
+- Social media icons
+- Legal links (Privacy Policy, Terms of Service)
+- Copyright
+
+---
+
+### 🧱 Additional Planned Components (Examples)
+
+| Component          | Purpose                                                    |
+|-------------------|------------------------------------------------------------|
+| **Search Filter** | Allows users to filter listings by location, date, price, etc. |
+| **Booking Form**  | Collects user booking details and payment info              |
+| **Review Section**| Displays user reviews with ratings and comments             |
+| **Modal**         | Pop-up dialogs for login, signup, or confirmations          |
+| **Button**        | Styled, reusable buttons (primary, secondary, etc.)         |
+| **Input Field**   | Standardized text inputs, dropdowns, and checkboxes         |
+| **Alert/Toast**   | System feedback (e.g., booking success or login error)      |
+
+---
+
+Each component will be designed with:
+- **Accessibility** (ARIA roles, keyboard navigation)
+- **Responsiveness** (using Flexbox/Grid or Tailwind)
+- **Theming** (consistent typography and color schemes)
+
+By modularizing the UI, we ensure a maintainable codebase and a seamless user experience.
